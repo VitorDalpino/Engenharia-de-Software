@@ -1,6 +1,20 @@
 CONTEÚDO PARA PROVA: 
 - Conceito e história dos sistemas operacionais 
+
 - Revisão em hardware
+
 - Processos 
+. Um contador de progrma alterna entre processos(somente um programa ativo a cada momento).
+. Eventos que causam a criação de processos:
+-> Inicialização de sistema
+-> Chamada de sistema de processo por um processoem execução
+-> Requisição do usuário para criar um novo processo
+-> Inicialização de uma tareda em lotes
+. Eventos que causam o término de um processo:
+-> Saída noormal (voluntária)
+-> Saída por erro (voluntária)
+-> Erro fatal (involuntário)
+-> Cancelamento por ougtro processo (involuntário)
+
 - Escalonamento de processos
 - Deadlock
